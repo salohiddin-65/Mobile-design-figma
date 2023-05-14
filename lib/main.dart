@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_design_figma/view/sign_up_pass_page.dart';
+import 'package:mobile_design_figma/view/pages/Sign%20Up/sign_up_password.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SignUpPass(),
+      home: SignUpPassword(),
     );
   }
 }

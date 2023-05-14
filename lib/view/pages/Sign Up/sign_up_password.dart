@@ -3,14 +3,14 @@ import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mobile_design_figma/core/extension/context_size.dart';
 
-class SignUpPass extends StatefulWidget {
-  const SignUpPass({super.key});
+class SignUpPassword extends StatefulWidget {
+  const SignUpPassword({super.key});
 
   @override
-  State<SignUpPass> createState() => _SignUpPassState();
+  State<SignUpPassword> createState() => _SignUpPasswordState();
 }
 
-class _SignUpPassState extends State<SignUpPass> {
+class _SignUpPasswordState extends State<SignUpPassword> {
   bool isCircle = false;
 
   @override
