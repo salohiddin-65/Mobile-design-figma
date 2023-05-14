@@ -11,6 +11,8 @@ class SignUpPass extends StatefulWidget {
 }
 
 class _SignUpPassState extends State<SignUpPass> {
+  bool isCircle = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,7 +48,7 @@ class _SignUpPassState extends State<SignUpPass> {
                   color: Color(0xff027C90),
                 ),
                 SizedBox(
-                  height: context.height * 0.12,
+                  height: context.height * 0.10,
                 ),
                 Text(
                   "Set application password",
@@ -80,7 +82,7 @@ class _SignUpPassState extends State<SignUpPass> {
                   ],
                 ),
                 SizedBox(
-                  height: context.height * 0.1,
+                  height: context.height * 0.08,
                 ),
                 SvgPicture.asset("assets/finger.svg"),
                 SizedBox(
@@ -118,7 +120,7 @@ class _SignUpPassState extends State<SignUpPass> {
                   ),
                 ),
                 SizedBox(
-                  height: context.height * 0.02,
+                  height: context.height * 0.03,
                 ),
                 Text(
                   "Skip",
