@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mobile_design_figma/core/extension/context_size.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class TopHomePage extends StatefulWidget {
+  const TopHomePage({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<TopHomePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<TopHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
